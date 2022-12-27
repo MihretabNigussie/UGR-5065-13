@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/Home page images/Logo.jpg"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="./Home.html"
+        ><img
+          src="./images/Home page images/Logo.jpg"
+          alt="Our Logo"
+          width="100"
+          height="auto"
+      /></a>
+      <nav>
+        <ul>
+          <li><a href="./About.html">About</a></li>
+          <li><a href="./Contact.html">Contact</a></li>
+          <li><a href="./Sign up.html">Sign up</a></li>
+          <li><a href="./Login.html">Log in</a></li>
+        </ul>
+      </nav>
+      <!-- The following content is shown only if the user logged in -->
+      <div>
+        <p>Username</p>
+        <a href="./Profile.html"
+          ><img
+            src="./images/icons/User icon.svg"
+            alt="profile-picture"
+            width="50"
+            height="auto"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <article>
+        <p>
+          We would love to be in touch with you! Please fill the following form
+          and put your comments there. Thank you for your comment. It really
+          helps us!
+        </p>
+        <section>
+          <form action="">
+            <div>
+              <label for="name">Name <span id="name-required">*</span></label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="name here"
+                required
+              />
+            </div>
+            <div>
+              <label for="email"
+                >Email <span id="email-requied">*</span>
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email here"
+                required
+              />
+            </div>
+            <div>
+              <label for="message"
+                >Message <span id="email-requied">*</span></label
+              >
+              <textarea
+                name="message-box"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="message"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              name="send-button"
+              id="send-btn"
+              value="Send"
+            />
+          </form>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://twitter.com/MereSenior"
+              ><img
+                src="./images/icons/twitter.svg"
+                alt="twitter icon"
+                width="50"
+                height="auto"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/mire.ab/"
+              ><img
+                src="./images/icons/instagram.svg"
+                alt="instagram icon"
+                width="50"
+                height="auto"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <p>&copy; Copyright Lorem shoe 2022. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

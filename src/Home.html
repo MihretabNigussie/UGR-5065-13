@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/Home page images/Logo.jpg"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="./Home.html">
+        <img
+          src="./images/Home page images/Logo.jpg"
+          alt="Our Logo"
+          width="100"
+          height="auto"
+        />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="./Sign up.html">Sign up</a></li>
+          <li><a href="./Login.html">Log in</a></li>
+        </ul>
+      </nav>
+      <!-- The following content is shown only if the user logged in (in place of the above nav) -->
+      <div>
+        <p>Username</p>
+        <a href="./Profile.html"
+          ><img
+            src="./images/icons/User icon.svg"
+            alt="profile-picture"
+            width="50"
+            height="auto"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <article>
+        <div id="slider">
+          <h1>Lorem Shoe</h1>
+          <p>For every walk of life</p>
+        </div>
+        <button aria-controls="slider">
+          <img
+            src="./images/icons/left arrow.svg"
+            alt="previous image"
+            width="20"
+            height="auto"
+          />
+        </button>
+        <button>
+          <img
+            src="./images/icons/right arrow.svg"
+            alt="next image"
+            width="20"
+            height="auto"
+          />
+        </button>
+      </article>
+      <article>
+        <section>
+          <h2>Get your Dream Shoes</h2>
+          <p>
+            Shoes you definitely want to wear are all here. Here at Lorem Shoe.
+            Buy it and bring power to your steps!
+          </p>
+          <img
+            src="./images/Home page images/Shoe6.jpg"
+            alt="nice shoe"
+            width="150"
+            height="auto"
+          />
+        </section>
+        <section>
+          <h2>Designed with perfection</h2>
+          <p>
+            Good design adds value faster than it adds costs. Are you a fashion
+            follower?? You can get well designed shoes for all age stages, for
+            all dress styles.
+          </p>
+          <img
+            src="./images/Home page images/Shoe7.png"
+            alt="nice shoe"
+            width="150"
+            height="auto"
+          />
+        </section>
+        <section>
+          <h2>Run anywhere, comfort everywhere</h2>
+          <p>Lorem shoes take you to comfort world. Comfort for all!!</p>
+          <img
+            src="./images/Home page images/Shoe8.jpg"
+            alt="nice shoe"
+            width="150"
+            height="auto"
+          />
+        </section>
+      </article>
+      <article>
+        <div>
+          <h2>Catagories</h2>
+          <a href="./Categories.html">Show all</a>
+        </div>
+        <section>
+          <ul>
+            <li>
+              <h3>Men</h3>
+              <img
+                src="./images/Home page images/Shoe1.jpg"
+                alt="Men's shoes catagroies"
+                width="150"
+                height="auto"
+              />
+              <a href="./Categories.html#men">Shop now</a>
+            </li>
+            <li>
+              <h3>Women</h3>
+              <img
+                src="./images/Home page images/Shoe2.jpg"
+                alt="Women's shoes catagroies"
+                width="150"
+                height="auto"
+              />
+              <a href="./Categories.html#women">Shop now</a>
+            </li>
+            <li>
+              <h3>Children</h3>
+              <img
+                src="./images/Home page images/Shoe3.jpg"
+                alt="Children's shoes catagroies"
+                width="150"
+                height="auto"
+              />
+              <a href="./Categories.html#children">Shop now</a>
+            </li>
+            <li>
+              <h3>Sport</h3>
+              <img
+                src="./images/Home page images/Shoe4.jpg"
+                alt="Sport shoes catagroies"
+                width="150"
+                height="auto"
+              />
+              <a href="./Categories.html#sport">Shop now</a>
+            </li>
+            <li>
+              <h3>Fashion</h3>
+              <img
+                src="./images/Home page images/Shoe5.jpg"
+                alt="Fashion shoes catagroies"
+                width="150"
+                height="auto"
+              />
+              <a href="./Categories.html#fashion">Shop now</a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <article>
+        <h2>What is new?</h2>
+        <p>Receive updates about new products and promotions</p>
+        <button>Enter email here</button>
+        <!-- Email entering form here (this content is shown only if the user clicked the above button) -->
+        <div>
+          <p>Put your email address here</p>
+          <form action="">
+            <div>
+              <label for="name">Name <span id="requredName">*</span></label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="your name here"
+                required
+              />
+            </div>
+            <div>
+              <label for="email">Email <span id="requredEmail">*</span></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="your email here"
+                required
+              />
+            </div>
+            <input type="submit" name="submit-button" id="submit-btn" />
+          </form>
+        </div>
+      </article>
+      <article>
+        <div>
+          <h2>About</h2>
+          <nav>
+            <ul>
+              <li><a href="./About.html">About</a></li>
+              <li><a href="./About.html#status">Status</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <h2>My account</h2>
+          <nav>
+            <ul>
+              <li><a href="./Sign up.html">Sign up</a></li>
+              <li><a href="./Profile.html#liked-shoes">Liked Shoes</a></li>
+              <li>
+                <a href="./Profile.html#bought-shoes">Shopping History</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://twitter.com/MereSenior"
+              ><img
+                src="./images/icons/twitter.svg"
+                alt="twitter icon"
+                width="50"
+                height="auto"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/mire.ab/"
+              ><img
+                src="./images/icons/instagram.svg"
+                alt="instagram icon"
+                width="50"
+                height="auto"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <p>&copy; Copyright Lorem shoe 2022. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
